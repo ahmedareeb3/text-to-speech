@@ -2,7 +2,6 @@
 
 # -------------------------------------------------------Method One--------------------------------------------------
 
-#Import Modules
 from gtts import gTTS
 import os
 
@@ -24,7 +23,6 @@ os.system("audio.mp3")
 
 # -------------------------------------------------------Method Two--------------------------------------------------
 
-#Import Modules
 import pyttsx3
 
 engine = pyttsx3.init()
