@@ -3,7 +3,9 @@
 
 import pyttsx3
 
-myText = 
+myText=  input("Enter the text\n")
+language ="en"
+
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
